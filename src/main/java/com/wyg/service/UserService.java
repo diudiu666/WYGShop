@@ -1,7 +1,7 @@
 package com.wyg.service;
 
 /**
- * This is UserService
+ * UserService的接口
  */
-public class UserService {
+public interface UserService {
 }

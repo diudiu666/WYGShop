@@ -1,8 +1,7 @@
 package com.wyg.dao;
 
 /**
- * This is UserDao
+ * UserDao接口
  */
-public class UserDao {
-    private String name;
+public interface UserDao {
 }
