@@ -5,9 +5,10 @@
 <web-app>
   <display-name>Archetype Created Web Application</display-name>
 
-
-
-
+  <context-param> <!--全局范围内环境参数初始化-->
+    <param-name>contextConfigLocation</param-name>          <!--参数名称-->
+    <param-value>classpath:spring-mybatis.xml</param-value>     <!--参数取值-->
+  </context-param>
 
   <!--监听器配置-->
   <listener>
