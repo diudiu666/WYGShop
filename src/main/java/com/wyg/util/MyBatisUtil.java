@@ -20,10 +20,12 @@ public class MyBatisUtil {
         }
     }
 
+    //open一个sqlsession
     public static SqlSession getSqlSession() {
         return factory.openSession(false);  //true为自动提交事务
     }
 
+    //关闭sqlsession
     public static void closeSqlSession(SqlSession session) {
         if (session != null) {
             session.close();
